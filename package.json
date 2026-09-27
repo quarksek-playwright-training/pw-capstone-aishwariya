@@ -1,0 +1,31 @@
+{
+  "name": "pw-capstone-aishwariya",
+  "version": "1.0.0",
+  "description": "Playwright capstone automation project",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:auth": "playwright test --grep @auth",
+    "test:notes": "playwright test --grep @notes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quarksek-playwright-training/pw-capstone-aishwariya.git"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing"
+  ],
+  "author": "Aishwariya",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4"
+  }
+}
